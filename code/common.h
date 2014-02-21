@@ -1,5 +1,5 @@
-#ifndef _COMMON_H
-#define _LIBLINEAR_H
+#ifndef _COMMON_H_
+#define _COMMON_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -17,11 +17,11 @@ struct Problem{
 };
 
 typedef double lbfgsfloatval_t;
-lbfgsfloatval_t func_evaluate(const lbfgsfloatval_t *w,lbfgsfloatval_t *g,const Problem &data,const lbfgsfloatval_t step=0);
+double func_evaluate(const double *w,double *g,const Problem &data,const double step=0);
 
 Problem read_problem(const char *filename);
 
 #ifdef __cplusplus
 }
 #endif
-#endif /* _LIBLINEAR_H */
+#endif

@@ -9,6 +9,8 @@
 #define Malloc(type,n) (type *)malloc((n)*sizeof(type))
 using namespace std;
 
+/** copy from liblinear source code **/
+
 static char *line = NULL;
 static int max_line_len;
 
