@@ -1,5 +1,5 @@
-#ifndef _LIBLINEAR_H_
-#define _LIBLINEAR_H_
+#ifndef _LINEAR_SEARCH_H_
+#define _LINEAR_SEARCH_H_
 
 typedef double lbfgsfloatval_t;
 double func_evaluate(const double *w,double *g,const Problem &data,const double step=0);
@@ -25,7 +25,7 @@ double backtracking_linear_search(
 	double *g, // current gradient
 	double *p, // negative search direction, Warning, p should not equal to g, because the procedure require p unchanged but change g when call proc_evaluate
 	int n, // number of varialbes
-	double fx, // current function value at x
+	double *fx, // current function value at x
 	double c, // sufficient decrease condition threshold
 	double init_step, // initial step length
 	double r, // scale factor in backtracking

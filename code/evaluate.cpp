@@ -41,3 +41,12 @@ lbfgsfloatval_t func_evaluate(const lbfgsfloatval_t *w,lbfgsfloatval_t *g,const 
 	}
 	return NLL;
 }
+double evaluator_interface(
+	void *instance, // user-specified object
+	double *x, // the current variables
+	double *g, // gradient
+	int n, // number of variables
+){
+	Problem *prob=(Problem*)instance;
+	func_evaluate(x,g,*prob);
+}
