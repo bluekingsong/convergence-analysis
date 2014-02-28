@@ -1,10 +1,7 @@
 #ifndef _LINEAR_SEARCH_H_
 #define _LINEAR_SEARCH_H_
+#include "common.h"
 
-typedef double lbfgsfloatval_t;
-double func_evaluate(const double *w,double *g,const Problem &data,const double step=0);
-
-Problem read_problem(const char *filename);
 
 // define callback evalute function
 // @retval the value of object function at x.
@@ -12,7 +9,7 @@ typedef double (* func_evaluator)(
 	void *instance, // user-specified object
 	double *x, // the current variables
 	double *g, // gradient
-	int n, // number of variables
+	int n // number of variables
 );
 // simplest linear search method: backtracking linear search
 // @retval selected step length, negative value means failure to find a proper step length
@@ -28,6 +25,6 @@ double backtracking_linear_search(
 	double *fx, // current function value at x
 	double c, // sufficient decrease condition threshold
 	double init_step, // initial step length
-	double r, // scale factor in backtracking
+	double r // scale factor in backtracking
 );
 #endif

@@ -41,6 +41,7 @@ struct FeatureNode *x_space;
 //struct model* model_;
 double bias;
 
+/*
 int main(int argc, char **argv)
 {
 	const char *input_file_name="../data/train.lbm";
@@ -52,6 +53,7 @@ int main(int argc, char **argv)
 
 	return 0;
 }
+*/
 
 // read in a problem (in libsvm format)
 Problem read_problem(const char *filename)

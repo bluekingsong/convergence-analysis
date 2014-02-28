@@ -1,37 +1,15 @@
-
+#include <cstring>
+#include <iostream>
 #include "linear_search.h"
-
-double backtracking_linear_search(
-	void *instance, // user-specified object
-	func_evaluator proc_evaluate, // object-function value evaluator
-	double *x, // current point
-	double *xp, // backup place for x
-	double *g, // current gradient
-	double *p, // negative of search direction
-	int n, // number of varialbes
-	double *fx, // current function value at x
-	double c, // sufficient decrease condition threshold
-	double init_step, // initial step length
-	double r, // scale factor in backtracking
-){
-	double dec;
-	vec_dot(&dec,g,p,-c);
-	if(dec<0){ // non suitable step
-		return -1;
-	}
-	double alpha=init_step;
-	vec_add(xp,x,p,-alpha);
-	double newFx;
-	while((newFx=proc_evaluate(instance,xp,g,n)) > fx+alpha*dec ){
-		alpha*=r;
-		vec_add(xp,x,p,-alpha);
-	}
-	*fx=newFx;
-	return alpha;
-}
+#include "vec_op.h"
+using namespace std;
 
 void steep_gradient_descent(const char* filename,int maxIter,double objDelta){
+	time_t t=time(0);
+	cout<<"begin read probelm:"<<asctime(localtime(&t))<<endl;
 	Problem prob=read_problem(filename);
+	t=time(0);
+	cout<<"end of read:"<<asctime(localtime(&t))<<endl;
 	int iter=0;
 	double *x=new double[prob.n];
 	memset(x,0,sizeof(x)*prob.n);
@@ -39,12 +17,20 @@ void steep_gradient_descent(const char* filename,int maxIter,double objDelta){
 	double *g=new double[prob.n];
 	double *p=new double[prob.n];
 	double fx=func_evaluate(x,g,prob);
-	vec_cpy(p,g,prob.n);
+	cout<<"init obj value="<<fx<<endl;
 	while(true){
 		++iter;
 		double last=fx;
+		vec_cpy(p,g,prob.n);
 		double alpha=backtracking_linear_search(&prob,evaluator_interface,x,xp,g,p,prob.n,&fx,0.4,2,0.8);
+		if(alpha<0){
+			cout<<"stop, cannot find suitable step length."<<endl;
+			break;
+		}
 		double decrease=last-fx;
+		cout<<"#iteration "<<iter<<" #obj_value "<<fx<<endl;
+		t=time(0);
+		cout<<"time:"<<asctime(localtime(&t))<<endl;
 		if(maxIter>0 && iter>=maxIter){
 			break;
 		}
@@ -52,8 +38,12 @@ void steep_gradient_descent(const char* filename,int maxIter,double objDelta){
 			break;
 		}
 	}
+	delete []x;
+	delete []xp;
+	delete []g;
+	delete []p;
 }
-int main(){
-
+int main(int argc,char **argv){
+	steep_gradient_descent("../data/train.lbm",100,1e-6);
 	return 0;
 }
