@@ -13,4 +13,6 @@ void vec_add(double *result_vec,double *vec1,double *vec2,int vec_len,double fac
 // @vec_len the length of vectors
 void vec_cpy(double *dest,double *src,int vec_len);
 
+// #retval L1-norm of @vec, i.e. sum of |vec[i]|
+double vec_l1_norm(double *vec,int vec_len);
 #endif

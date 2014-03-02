@@ -22,14 +22,15 @@ double backtracking_linear_search(
 		return -1;
 	}
 	cout<<"unit decrease of g'p="<<dec<<endl;
-	for(int i=0;i<10;i++){
+	for(int i=0;i<5;i++){
 		cout<<"x["<<i<<"]="<<x[i]<<" p["<<i<<"]="<<p[i]<<endl;
 	}
 	double alpha=init_step;
 	vec_add(xp,x,p,n,1,-alpha);
 	double old_fx=*fx;
+	cout<<"-----init step length="<<init_step<<endl;
 	while( (*fx=proc_evaluate(instance,xp,g,n)) > old_fx+alpha*c*dec ){
-		cout<<"try step length "<<alpha<<" get obj "<<*fx<<endl;
+		cout<<"-----try step length "<<alpha<<" get obj="<<*fx<<" dec="<<old_fx-*fx<<" require min dec="<<alpha*c*dec<<endl;
 		alpha*=r;
 		vec_add(xp,x,p,n,1,-alpha);
 	}
