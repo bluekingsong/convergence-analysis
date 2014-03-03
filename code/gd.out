@@ -1,0 +1,506 @@
+begin read probelm:Sun Mar  2 10:52:27 2014
+
+number of instances=2527397
+number of features=33256
+end of read:Sun Mar  2 10:52:42 2014
+
+init obj value=1.75186e+06
+##success linear search, get alpha=9.06508e-07 obj=51159.8 dec=1.7007e+06 required min dec=649.773
+#iteration 1 #obj_value 51159.8 #ave_obj 0.0202421 #evaluate_cnt 2
+time:Sun Mar  2 10:52:46 2014
+
+##success linear search, get alpha=3.69206e-05 obj=28982.2 dec=22177.6 required min dec=20.0623
+#iteration 2 #obj_value 28982.2 #ave_obj 0.0114672 #evaluate_cnt 3
+time:Sun Mar  2 10:52:48 2014
+
+-----try step length 0.000668249 get obj=138244 dec=-109262 require min dec=1.65919
+-----try step length 0.000534599 get obj=51910.4 dec=-22928.2 require min dec=1.32735
+-----try step length 0.000427679 get obj=32021.1 dec=-3038.93 require min dec=1.06188
+##success linear search, get alpha=0.000342144 obj=26598.9 dec=2383.3 required min dec=0.849506
+#iteration 3 #obj_value 26598.9 #ave_obj 0.0105242 #evaluate_cnt 7
+time:Sun Mar  2 10:52:55 2014
+
+-----try step length 0.000183923 get obj=28804.5 dec=-2205.63 require min dec=3.23081
+-----try step length 0.000147138 get obj=26791 dec=-192.055 require min dec=2.58465
+##success linear search, get alpha=0.00011771 obj=25297 dec=1301.96 required min dec=2.06772
+#iteration 4 #obj_value 25297 #ave_obj 0.0100091 #evaluate_cnt 10
+time:Sun Mar  2 10:53:01 2014
+
+-----try step length 0.000571483 get obj=140457 dec=-115160 require min dec=1.26637
+-----try step length 0.000457186 get obj=59323.7 dec=-34026.8 require min dec=1.01309
+-----try step length 0.000365749 get obj=34675.5 dec=-9378.53 require min dec=0.810475
+-----try step length 0.000292599 get obj=26639.9 dec=-1342.96 require min dec=0.64838
+##success linear search, get alpha=0.000234079 obj=23958 dec=1339 required min dec=0.518704
+#iteration 5 #obj_value 23958 #ave_obj 0.0094793 #evaluate_cnt 15
+time:Sun Mar  2 10:53:11 2014
+
+-----try step length 0.000338007 get obj=32908.1 dec=-8950.13 require min dec=2.98138
+-----try step length 0.000270405 get obj=30121.1 dec=-6163.18 require min dec=2.38511
+-----try step length 0.000216324 get obj=27944.7 dec=-3986.72 require min dec=1.90809
+-----try step length 0.000173059 get obj=26258.6 dec=-2300.61 require min dec=1.52647
+-----try step length 0.000138447 get obj=24971.2 dec=-1013.29 require min dec=1.22117
+-----try step length 0.000110758 get obj=24014.5 dec=-56.5432 require min dec=0.97694
+##success linear search, get alpha=8.86064e-05 obj=23335.8 dec=622.174 required min dec=0.781552
+#iteration 6 #obj_value 23335.8 #ave_obj 0.00923313 #evaluate_cnt 22
+time:Sun Mar  2 10:53:25 2014
+
+-----try step length 0.00098289 get obj=829221 dec=-805886 require min dec=1.09117
+-----try step length 0.000786312 get obj=380604 dec=-357268 require min dec=0.872935
+-----try step length 0.000629049 get obj=146613 dec=-123278 require min dec=0.698348
+-----try step length 0.00050324 get obj=61253.8 dec=-37918 require min dec=0.558678
+-----try step length 0.000402592 get obj=35003 dec=-11667.2 require min dec=0.446943
+-----try step length 0.000322073 get obj=26653.6 dec=-3317.87 require min dec=0.357554
+-----try step length 0.000257659 get obj=23777.4 dec=-441.599 require min dec=0.286043
+##success linear search, get alpha=0.000206127 obj=22763.6 dec=572.19 required min dec=0.228835
+#iteration 7 #obj_value 22763.6 #ave_obj 0.00900673 #evaluate_cnt 30
+time:Sun Mar  2 10:53:40 2014
+
+-----try step length 0.000755388 get obj=36424.7 dec=-13661.2 require min dec=1.31053
+-----try step length 0.00060431 get obj=32704.3 dec=-9940.73 require min dec=1.04842
+-----try step length 0.000483448 get obj=29783.7 dec=-7020.14 require min dec=0.838737
+-----try step length 0.000386758 get obj=27525 dec=-4761.45 require min dec=0.67099
+-----try step length 0.000309407 get obj=25815 dec=-3051.4 require min dec=0.536792
+-----try step length 0.000247525 get obj=24556.5 dec=-1792.91 require min dec=0.429433
+-----try step length 0.00019802 get obj=23663.3 dec=-899.713 require min dec=0.343547
+-----try step length 0.000158416 get obj=23057.8 dec=-294.238 require min dec=0.274837
+##success linear search, get alpha=0.000126733 obj=22671.3 dec=92.2505 required min dec=0.21987
+#iteration 8 #obj_value 22671.3 #ave_obj 0.00897023 #evaluate_cnt 39
+time:Sun Mar  2 10:53:58 2014
+
+-----try step length 0.00119203 get obj=952720 dec=-930049 require min dec=0.936865
+-----try step length 0.000953622 get obj=445887 dec=-423215 require min dec=0.749492
+-----try step length 0.000762898 get obj=187608 dec=-164937 require min dec=0.599594
+-----try step length 0.000610318 get obj=82077.9 dec=-59406.6 require min dec=0.479675
+-----try step length 0.000488255 get obj=44540 dec=-21868.6 require min dec=0.38374
+-----try step length 0.000390604 get obj=31043.4 dec=-8372.11 require min dec=0.306992
+-----try step length 0.000312483 get obj=25811.5 dec=-3140.19 require min dec=0.245594
+-----try step length 0.000249986 get obj=23644.4 dec=-973.098 require min dec=0.196475
+-----try step length 0.000199989 get obj=22722.5 dec=-51.1461 require min dec=0.15718
+##success linear search, get alpha=0.000159991 obj=22343.9 dec=327.476 required min dec=0.125744
+#iteration 9 #obj_value 22343.9 #ave_obj 0.00884066 #evaluate_cnt 49
+time:Sun Mar  2 10:54:17 2014
+
+-----try step length 0.00131027 get obj=37301.5 dec=-14957.7 require min dec=0.844097
+-----try step length 0.00104821 get obj=33490.7 dec=-11146.9 require min dec=0.675277
+-----try step length 0.00083857 get obj=30488.8 dec=-8144.92 require min dec=0.540222
+-----try step length 0.000670856 get obj=28150.5 dec=-5806.68 require min dec=0.432177
+-----try step length 0.000536685 get obj=26357.4 dec=-4013.5 require min dec=0.345742
+-----try step length 0.000429348 get obj=25009.8 dec=-2665.98 require min dec=0.276594
+-----try step length 0.000343478 get obj=24022.6 dec=-1678.74 require min dec=0.221275
+-----try step length 0.000274783 get obj=23321.2 dec=-977.318 require min dec=0.17702
+-----try step length 0.000219826 get obj=22840.7 dec=-496.877 require min dec=0.141616
+-----try step length 0.000175861 get obj=22525.9 dec=-182.085 require min dec=0.113293
+##success linear search, get alpha=0.000140689 obj=22331.1 dec=12.7703 required min dec=0.0906342
+#iteration 10 #obj_value 22331.1 #ave_obj 0.00883561 #evaluate_cnt 60
+time:Sun Mar  2 10:54:39 2014
+
+-----try step length 0.00152765 get obj=984487 dec=-962156 require min dec=0.707792
+-----try step length 0.00122212 get obj=493075 dec=-470744 require min dec=0.566233
+-----try step length 0.000977695 get obj=219311 dec=-196980 require min dec=0.452987
+-----try step length 0.000782156 get obj=97256.1 dec=-74925 require min dec=0.362389
+-----try step length 0.000625725 get obj=51171.1 dec=-28840 require min dec=0.289912
+-----try step length 0.00050058 get obj=34071.3 dec=-11740.2 require min dec=0.231929
+-----try step length 0.000400464 get obj=27295.5 dec=-4964.38 require min dec=0.185543
+-----try step length 0.000320371 get obj=24399.5 dec=-2068.37 require min dec=0.148435
+-----try step length 0.000256297 get obj=23093.9 dec=-762.848 require min dec=0.118748
+-----try step length 0.000205037 get obj=22493.2 dec=-162.129 require min dec=0.0949982
+##success linear search, get alpha=0.00016403 obj=22223.1 dec=108.037 required min dec=0.0759986
+#iteration 11 #obj_value 22223.1 #ave_obj 0.00879286 #evaluate_cnt 71
+time:Sun Mar  2 10:55:00 2014
+
+-----try step length 0.00142427 get obj=38204.8 dec=-15981.8 require min dec=0.86174
+-----try step length 0.00113942 get obj=34210.9 dec=-11987.8 require min dec=0.689392
+-----try step length 0.000911532 get obj=31060.2 dec=-8837.14 require min dec=0.551514
+-----try step length 0.000729226 get obj=28598.7 dec=-6375.6 require min dec=0.441211
+-----try step length 0.000583381 get obj=26700.6 dec=-4477.51 require min dec=0.352969
+-----try step length 0.000466705 get obj=25261.9 dec=-3038.87 require min dec=0.282375
+-----try step length 0.000373364 get obj=24195.2 dec=-1972.13 require min dec=0.2259
+-----try step length 0.000298691 get obj=23425.4 dec=-1202.3 require min dec=0.18072
+-----try step length 0.000238953 get obj=22887.7 dec=-664.639 require min dec=0.144576
+-----try step length 0.000191162 get obj=22526.7 dec=-303.649 require min dec=0.115661
+-----try step length 0.00015293 get obj=22295.9 dec=-72.8639 require min dec=0.0925286
+##success linear search, get alpha=0.000122344 obj=22157.7 dec=65.3104 required min dec=0.0740229
+#iteration 12 #obj_value 22157.7 #ave_obj 0.00876702 #evaluate_cnt 83
+time:Sun Mar  2 10:55:24 2014
+
+-----try step length 0.00180135 get obj=919435 dec=-897277 require min dec=0.552211
+-----try step length 0.00144108 get obj=473305 dec=-451147 require min dec=0.441769
+-----try step length 0.00115286 get obj=214966 dec=-192808 require min dec=0.353415
+-----try step length 0.00092229 get obj=97139.2 dec=-74981.4 require min dec=0.282732
+-----try step length 0.000737832 get obj=51718 dec=-29560.2 require min dec=0.226186
+-----try step length 0.000590266 get obj=34540.2 dec=-12382.5 require min dec=0.180949
+-----try step length 0.000472213 get obj=27616.2 dec=-5458.42 require min dec=0.144759
+-----try step length 0.00037777 get obj=24602.1 dec=-2444.33 require min dec=0.115807
+-----try step length 0.000302216 get obj=23209.8 dec=-1052.07 require min dec=0.0926457
+-----try step length 0.000241773 get obj=22544.9 dec=-387.128 require min dec=0.0741166
+-----try step length 0.000193418 get obj=22226.2 dec=-68.464 require min dec=0.0592932
+##success linear search, get alpha=0.000154735 obj=22079.1 dec=78.6625 required min dec=0.0474346
+#iteration 13 #obj_value 22079.1 #ave_obj 0.0087359 #evaluate_cnt 95
+time:Sun Mar  2 10:55:47 2014
+
+-----try step length 0.00192737 get obj=38125.7 dec=-16046.7 require min dec=0.644988
+-----try step length 0.00154189 get obj=34182.9 dec=-12103.9 require min dec=0.515991
+-----try step length 0.00123351 get obj=31071.7 dec=-8992.59 require min dec=0.412793
+-----try step length 0.000986811 get obj=28638.4 dec=-6559.36 require min dec=0.330234
+-----try step length 0.000789449 get obj=26758.1 dec=-4679 require min dec=0.264187
+-----try step length 0.000631559 get obj=25327.2 dec=-3248.16 require min dec=0.21135
+-----try step length 0.000505247 get obj=24259.4 dec=-2180.35 require min dec=0.16908
+-----try step length 0.000404198 get obj=23481.2 dec=-1402.15 require min dec=0.135264
+-----try step length 0.000323358 get obj=22929.8 dec=-850.67 require min dec=0.108211
+-----try step length 0.000258687 get obj=22551.4 dec=-472.358 require min dec=0.0865689
+-----try step length 0.000206949 get obj=22301.6 dec=-222.51 require min dec=0.0692551
+-----try step length 0.000165559 get obj=22144.1 dec=-64.9703 require min dec=0.0554041
+##success linear search, get alpha=0.000132448 obj=22050.6 dec=28.4463 required min dec=0.0443233
+#iteration 14 #obj_value 22050.6 #ave_obj 0.00872464 #evaluate_cnt 108
+time:Sun Mar  2 10:56:12 2014
+
+-----try step length 0.00201756 get obj=856713 dec=-834662 require min dec=0.461872
+-----try step length 0.00161405 get obj=438755 dec=-416704 require min dec=0.369498
+-----try step length 0.00129124 get obj=199884 dec=-177833 require min dec=0.295598
+-----try step length 0.00103299 get obj=92126 dec=-70075.4 require min dec=0.236479
+-----try step length 0.000826392 get obj=50296.4 dec=-28245.8 require min dec=0.189183
+-----try step length 0.000661114 get obj=34185.4 dec=-12134.8 require min dec=0.151346
+-----try step length 0.000528891 get obj=27556.9 dec=-5506.24 require min dec=0.121077
+-----try step length 0.000423113 get obj=24613.6 dec=-2562.92 require min dec=0.0968616
+-----try step length 0.00033849 get obj=23225.9 dec=-1175.31 require min dec=0.0774893
+-----try step length 0.000270792 get obj=22547.1 dec=-496.485 require min dec=0.0619914
+-----try step length 0.000216634 get obj=22210.9 dec=-160.274 require min dec=0.0495931
+##success linear search, get alpha=0.000173307 obj=22047.2 dec=3.39177 required min dec=0.0396745
+#iteration 15 #obj_value 22047.2 #ave_obj 0.0087233 #evaluate_cnt 120
+time:Sun Mar  2 10:56:36 2014
+
+-----try step length 0.00171874 get obj=38980.2 dec=-16932.9 require min dec=0.783612
+-----try step length 0.00137499 get obj=34839.3 dec=-12792.1 require min dec=0.62689
+-----try step length 0.00109999 get obj=31568.7 dec=-9521.49 require min dec=0.501512
+-----try step length 0.000879995 get obj=29006.7 dec=-6959.43 require min dec=0.40121
+-----try step length 0.000703996 get obj=27021.6 dec=-4974.33 require min dec=0.320968
+-----try step length 0.000563197 get obj=25505.3 dec=-3458.07 require min dec=0.256774
+-----try step length 0.000450557 get obj=24368.3 dec=-2321.04 require min dec=0.205419
+-----try step length 0.000360446 get obj=23535.1 dec=-1487.88 require min dec=0.164335
+-----try step length 0.000288357 get obj=22941.6 dec=-894.311 require min dec=0.131468
+-----try step length 0.000230685 get obj=22532.6 dec=-485.357 require min dec=0.105175
+-----try step length 0.000184548 get obj=22261.9 dec=-214.655 require min dec=0.0841397
+-----try step length 0.000147639 get obj=22091.4 dec=-44.1774 require min dec=0.0673118
+##success linear search, get alpha=0.000118111 obj=21991.1 dec=56.1625 required min dec=0.0538494
+#iteration 16 #obj_value 21991.1 #ave_obj 0.00870108 #evaluate_cnt 133
+time:Sun Mar  2 10:57:01 2014
+
+-----try step length 0.00201996 get obj=827343 dec=-805352 require min dec=0.438957
+-----try step length 0.00161597 get obj=424131 dec=-402140 require min dec=0.351166
+-----try step length 0.00129278 get obj=193097 dec=-171106 require min dec=0.280932
+-----try step length 0.00103422 get obj=89367.3 dec=-67376.2 require min dec=0.224746
+-----try step length 0.000827376 get obj=49202.5 dec=-27211.5 require min dec=0.179797
+-----try step length 0.000661901 get obj=33716 dec=-11724.9 require min dec=0.143837
+-----try step length 0.000529521 get obj=27328.7 dec=-5337.62 require min dec=0.11507
+-----try step length 0.000423617 get obj=24485.4 dec=-2494.31 require min dec=0.0920559
+-----try step length 0.000338893 get obj=23141.7 dec=-1150.63 require min dec=0.0736448
+-----try step length 0.000271115 get obj=22482.7 dec=-491.604 require min dec=0.0589158
+-----try step length 0.000216892 get obj=22155.2 dec=-164.134 require min dec=0.0471326
+-----try step length 0.000173513 get obj=21995 dec=-3.94213 require min dec=0.0377061
+##success linear search, get alpha=0.000138811 obj=21921.2 dec=69.8352 required min dec=0.0301649
+#iteration 17 #obj_value 21921.2 #ave_obj 0.00867345 #evaluate_cnt 146
+time:Sun Mar  2 10:57:27 2014
+
+-----try step length 0.00278602 get obj=37459.6 dec=-15538.3 require min dec=0.427015
+-----try step length 0.00222882 get obj=33679.4 dec=-11758.1 require min dec=0.341612
+-----try step length 0.00178305 get obj=30697.2 dec=-8775.98 require min dec=0.27329
+-----try step length 0.00142644 get obj=28365.2 dec=-6443.97 require min dec=0.218632
+-----try step length 0.00114115 get obj=26562.6 dec=-4641.33 require min dec=0.174905
+-----try step length 0.000912924 get obj=25189.5 dec=-3268.26 require min dec=0.139924
+-----try step length 0.000730339 get obj=24162.5 dec=-2241.23 require min dec=0.111939
+-----try step length 0.000584271 get obj=23410.7 dec=-1489.46 require min dec=0.0895515
+-----try step length 0.000467417 get obj=22873.8 dec=-952.58 require min dec=0.0716412
+-----try step length 0.000373934 get obj=22500.8 dec=-579.556 require min dec=0.057313
+-----try step length 0.000299147 get obj=22249.4 dec=-328.121 require min dec=0.0458504
+-----try step length 0.000239318 get obj=22085.6 dec=-164.339 require min dec=0.0366803
+-----try step length 0.000191454 get obj=21983.1 dec=-61.8993 require min dec=0.0293442
+-----try step length 0.000153163 get obj=21922.4 dec=-1.10802 require min dec=0.0234754
+##success linear search, get alpha=0.000122531 obj=21889 dec=32.2839 required min dec=0.0187803
+#iteration 18 #obj_value 21889 #ave_obj 0.00866067 #evaluate_cnt 161
+time:Sun Mar  2 10:57:56 2014
+
+-----try step length 0.00305324 get obj=683457 dec=-661568 require min dec=0.268675
+-----try step length 0.00244259 get obj=341291 dec=-319402 require min dec=0.21494
+-----try step length 0.00195407 get obj=156787 dec=-134898 require min dec=0.171952
+-----try step length 0.00156326 get obj=76754 dec=-54865 require min dec=0.137562
+-----try step length 0.00125061 get obj=45230.5 dec=-23341.5 require min dec=0.110049
+-----try step length 0.00100048 get obj=32528.3 dec=-10639.3 require min dec=0.0880394
+-----try step length 0.000800388 get obj=27028.5 dec=-5139.58 require min dec=0.0704315
+-----try step length 0.00064031 get obj=24465.4 dec=-2576.48 require min dec=0.0563452
+-----try step length 0.000512248 get obj=23199.1 dec=-1310.12 require min dec=0.0450762
+-----try step length 0.000409799 get obj=22547.6 dec=-658.59 require min dec=0.0360609
+-----try step length 0.000327839 get obj=22204.4 dec=-315.402 require min dec=0.0288487
+-----try step length 0.000262271 get obj=22022.3 dec=-133.346 require min dec=0.023079
+-----try step length 0.000209817 get obj=21926.8 dec=-37.8624 require min dec=0.0184632
+##success linear search, get alpha=0.000167854 obj=21878.6 dec=10.3766 required min dec=0.0147706
+#iteration 19 #obj_value 21878.6 #ave_obj 0.00865657 #evaluate_cnt 175
+time:Sun Mar  2 10:58:23 2014
+
+-----try step length 0.00290798 get obj=38164.8 dec=-16286.3 require min dec=0.444744
+-----try step length 0.00232638 get obj=34240.1 dec=-12361.5 require min dec=0.355795
+-----try step length 0.0018611 get obj=31141.5 dec=-9262.89 require min dec=0.284636
+-----try step length 0.00148888 get obj=28714.6 dec=-6836.03 require min dec=0.227709
+-----try step length 0.00119111 get obj=26833.4 dec=-4954.86 require min dec=0.182167
+-----try step length 0.000952885 get obj=25394.4 dec=-3515.78 require min dec=0.145734
+-----try step length 0.000762308 get obj=24311.6 dec=-2432.97 require min dec=0.116587
+-----try step length 0.000609847 get obj=23513 dec=-1634.46 require min dec=0.0932696
+-----try step length 0.000487877 get obj=22937.8 dec=-1059.26 require min dec=0.0746157
+-----try step length 0.000390302 get obj=22534.3 dec=-655.766 require min dec=0.0596926
+-----try step length 0.000312241 get obj=22259.5 dec=-380.91 require min dec=0.0477541
+-----try step length 0.000249793 get obj=22078.3 dec=-199.744 require min dec=0.0382032
+-----try step length 0.000199835 get obj=21963.4 dec=-84.8284 require min dec=0.0305626
+-----try step length 0.000159868 get obj=21894 dec=-15.3673 require min dec=0.0244501
+##success linear search, get alpha=0.000127894 obj=21854.7 dec=23.8646 required min dec=0.0195601
+#iteration 20 #obj_value 21854.7 #ave_obj 0.00864713 #evaluate_cnt 190
+time:Sun Mar  2 10:58:52 2014
+
+-----try step length 0.00281234 get obj=704202 dec=-682348 require min dec=0.284809
+-----try step length 0.00224987 get obj=353840 dec=-331986 require min dec=0.227847
+-----try step length 0.0017999 get obj=162285 dec=-140430 require min dec=0.182278
+-----try step length 0.00143992 get obj=78678 dec=-56823.3 require min dec=0.145822
+-----try step length 0.00115193 get obj=45845.4 dec=-23990.7 require min dec=0.116658
+-----try step length 0.000921548 get obj=32706.5 dec=-10851.8 require min dec=0.0933263
+-----try step length 0.000737238 get obj=27058.8 dec=-5204.06 require min dec=0.074661
+-----try step length 0.000589791 get obj=24443.8 dec=-2589.1 require min dec=0.0597288
+-----try step length 0.000471832 get obj=23159.4 dec=-1304.68 require min dec=0.0477831
+-----try step length 0.000377466 get obj=22502.3 dec=-647.589 require min dec=0.0382265
+-----try step length 0.000301973 get obj=22158.3 dec=-303.577 require min dec=0.0305812
+-----try step length 0.000241578 get obj=21977.2 dec=-122.437 require min dec=0.0244649
+-----try step length 0.000193263 get obj=21883.1 dec=-28.4092 require min dec=0.0195719
+##success linear search, get alpha=0.00015461 obj=21836.4 dec=18.3171 required min dec=0.0156576
+#iteration 21 #obj_value 21836.4 #ave_obj 0.00863988 #evaluate_cnt 204
+time:Sun Mar  2 10:59:19 2014
+
+-----try step length 0.00312624 get obj=38059.2 dec=-16222.7 require min dec=0.408287
+-----try step length 0.00250099 get obj=34156.2 dec=-12319.8 require min dec=0.326629
+-----try step length 0.00200079 get obj=31074.6 dec=-9238.19 require min dec=0.261303
+-----try step length 0.00160063 get obj=28660.8 dec=-6824.37 require min dec=0.209043
+-----try step length 0.00128051 get obj=26789.5 dec=-4953.1 require min dec=0.167234
+-----try step length 0.0010244 get obj=25357.8 dec=-3521.38 require min dec=0.133787
+-----try step length 0.000819524 get obj=24280.2 dec=-2443.84 require min dec=0.10703
+-----try step length 0.000655619 get obj=23485.2 dec=-1648.83 require min dec=0.0856239
+-----try step length 0.000524495 get obj=22912 dec=-1075.63 require min dec=0.0684991
+-----try step length 0.000419596 get obj=22509.3 dec=-672.882 require min dec=0.0547993
+-----try step length 0.000335677 get obj=22234.2 dec=-397.797 require min dec=0.0438394
+-----try step length 0.000268542 get obj=22052.1 dec=-215.705 require min dec=0.0350716
+-----try step length 0.000214833 get obj=21935.8 dec=-99.4185 require min dec=0.0280572
+-----try step length 0.000171867 get obj=21864.8 dec=-28.3572 require min dec=0.0224458
+##success linear search, get alpha=0.000137493 obj=21823.9 dec=12.5406 required min dec=0.0179566
+#iteration 22 #obj_value 21823.9 #ave_obj 0.00863492 #evaluate_cnt 219
+time:Sun Mar  2 10:59:49 2014
+
+-----try step length 0.00269595 get obj=716126 dec=-694302 require min dec=0.295497
+-----try step length 0.00215676 get obj=360060 dec=-338236 require min dec=0.236398
+-----try step length 0.00172541 get obj=164987 dec=-143163 require min dec=0.189118
+-----try step length 0.00138033 get obj=79682.5 dec=-57858.6 require min dec=0.151295
+-----try step length 0.00110426 get obj=46199.8 dec=-24375.9 require min dec=0.121036
+-----try step length 0.000883409 get obj=32824.3 dec=-11000.5 require min dec=0.0968286
+-----try step length 0.000706728 get obj=27086.3 dec=-5262.43 require min dec=0.0774629
+-----try step length 0.000565382 get obj=24434.4 dec=-2610.59 require min dec=0.0619703
+-----try step length 0.000452306 get obj=23134.3 dec=-1310.39 require min dec=0.0495762
+-----try step length 0.000361844 get obj=22470.4 dec=-646.534 require min dec=0.039661
+-----try step length 0.000289476 get obj=22123.7 dec=-299.808 require min dec=0.0317288
+-----try step length 0.00023158 get obj=21941.7 dec=-117.83 require min dec=0.025383
+-----try step length 0.000185264 get obj=21847.7 dec=-23.8264 require min dec=0.0203064
+##success linear search, get alpha=0.000148212 obj=21801.4 dec=22.5036 required min dec=0.0162451
+#iteration 23 #obj_value 21801.4 #ave_obj 0.00862601 #evaluate_cnt 233
+time:Sun Mar  2 11:00:16 2014
+
+-----try step length 0.00323992 get obj=38003.1 dec=-16201.7 require min dec=0.387616
+-----try step length 0.00259194 get obj=34108.2 dec=-12306.8 require min dec=0.310093
+-----try step length 0.00207355 get obj=31032.4 dec=-9231.04 require min dec=0.248074
+-----try step length 0.00165884 get obj=28622.8 dec=-6821.4 require min dec=0.198459
+-----try step length 0.00132707 get obj=26754.6 dec=-4953.23 require min dec=0.158768
+-----try step length 0.00106166 get obj=25325.3 dec=-3523.95 require min dec=0.127014
+-----try step length 0.000849326 get obj=24249.8 dec=-2448.4 require min dec=0.101611
+-----try step length 0.000679461 get obj=23456.3 dec=-1654.96 require min dec=0.081289
+-----try step length 0.000543569 get obj=22884.2 dec=-1082.88 require min dec=0.0650312
+-----try step length 0.000434855 get obj=22482.1 dec=-680.773 require min dec=0.052025
+-----try step length 0.000347884 get obj=22207.2 dec=-405.88 require min dec=0.04162
+-----try step length 0.000278307 get obj=22025 dec=-223.593 require min dec=0.033296
+-----try step length 0.000222646 get obj=21908.2 dec=-106.824 require min dec=0.0266368
+-----try step length 0.000178117 get obj=21836.5 dec=-35.0963 require min dec=0.0213094
+##success linear search, get alpha=0.000142493 obj=21794.8 dec=6.56117 required min dec=0.0170475
+#iteration 24 #obj_value 21794.8 #ave_obj 0.00862342 #evaluate_cnt 248
+time:Sun Mar  2 11:00:45 2014
+
+-----try step length 0.00265468 get obj=723618 dec=-701823 require min dec=0.299611
+-----try step length 0.00212375 get obj=363879 dec=-342084 require min dec=0.239689
+-----try step length 0.001699 get obj=166713 dec=-144919 require min dec=0.191751
+-----try step length 0.0013592 get obj=80372.1 dec=-58577.3 require min dec=0.153401
+-----try step length 0.00108736 get obj=46465.6 dec=-24670.8 require min dec=0.122721
+-----try step length 0.000869886 get obj=32923.6 dec=-11128.8 require min dec=0.0981766
+-----try step length 0.000695909 get obj=27116.4 dec=-5321.62 require min dec=0.0785413
+-----try step length 0.000556727 get obj=24433.6 dec=-2638.83 require min dec=0.062833
+-----try step length 0.000445382 get obj=23118.7 dec=-1323.89 require min dec=0.0502664
+-----try step length 0.000356305 get obj=22447.5 dec=-652.713 require min dec=0.0402131
+-----try step length 0.000285044 get obj=22097.1 dec=-302.278 require min dec=0.0321705
+-----try step length 0.000228036 get obj=21913.2 dec=-118.429 require min dec=0.0257364
+-----try step length 0.000182428 get obj=21818.3 dec=-23.5156 require min dec=0.0205891
+##success linear search, get alpha=0.000145943 obj=21771.6 dec=23.2163 required min dec=0.0164713
+#iteration 25 #obj_value 21771.6 #ave_obj 0.00861423 #evaluate_cnt 262
+time:Sun Mar  2 11:01:12 2014
+
+-----try step length 0.00328357 get obj=38079.9 dec=-16308.3 require min dec=0.381171
+-----try step length 0.00262686 get obj=34164.5 dec=-12392.9 require min dec=0.304936
+-----try step length 0.00210149 get obj=31071.6 dec=-9299.99 require min dec=0.243949
+-----try step length 0.00168119 get obj=28647.7 dec=-6876.08 require min dec=0.195159
+-----try step length 0.00134495 get obj=26767.7 dec=-4996.14 require min dec=0.156127
+-----try step length 0.00107596 get obj=25328.9 dec=-3557.31 require min dec=0.124902
+-----try step length 0.000860769 get obj=24245.7 dec=-2474.14 require min dec=0.0999216
+-----try step length 0.000688615 get obj=23446.3 dec=-1674.73 require min dec=0.0799373
+-----try step length 0.000550892 get obj=22869.6 dec=-1098.04 require min dec=0.0639498
+-----try step length 0.000440714 get obj=22464 dec=-692.397 require min dec=0.0511599
+-----try step length 0.000352571 get obj=22186.4 dec=-414.807 require min dec=0.0409279
+-----try step length 0.000282057 get obj=22002.1 dec=-230.47 require min dec=0.0327423
+-----try step length 0.000225645 get obj=21883.7 dec=-112.141 require min dec=0.0261938
+-----try step length 0.000180516 get obj=21810.8 dec=-39.2237 require min dec=0.0209551
+##success linear search, get alpha=0.000144413 obj=21768.2 dec=3.34436 required min dec=0.0167641
+#iteration 26 #obj_value 21768.2 #ave_obj 0.00861291 #evaluate_cnt 277
+time:Sun Mar  2 11:01:41 2014
+
+-----try step length 0.00263462 get obj=731921 dec=-710153 require min dec=0.302207
+-----try step length 0.0021077 get obj=368485 dec=-346717 require min dec=0.241766
+-----try step length 0.00168616 get obj=168870 dec=-147101 require min dec=0.193413
+-----try step length 0.00134893 get obj=81237.8 dec=-59469.5 require min dec=0.15473
+-----try step length 0.00107914 get obj=46799.5 dec=-25031.2 require min dec=0.123784
+-----try step length 0.000863313 get obj=33051.7 dec=-11283.5 require min dec=0.0990272
+-----try step length 0.000690651 get obj=27161.1 dec=-5392.83 require min dec=0.0792218
+-----try step length 0.00055252 get obj=24441.6 dec=-2673.41 require min dec=0.0633774
+-----try step length 0.000442016 get obj=23109.5 dec=-1341.21 require min dec=0.0507019
+-----try step length 0.000353613 get obj=22429.7 dec=-661.451 require min dec=0.0405616
+-----try step length 0.00028289 get obj=22074.8 dec=-306.592 require min dec=0.0324492
+-----try step length 0.000226312 get obj=21888.7 dec=-120.418 require min dec=0.0259594
+-----try step length 0.00018105 get obj=21792.5 dec=-24.2796 require min dec=0.0207675
+##success linear search, get alpha=0.00014484 obj=21745.2 dec=23.0847 required min dec=0.016614
+#iteration 27 #obj_value 21745.2 #ave_obj 0.00860377 #evaluate_cnt 291
+time:Sun Mar  2 11:02:08 2014
+
+-----try step length 0.00330664 get obj=38200.9 dec=-16455.7 require min dec=0.379544
+-----try step length 0.00264531 get obj=34255.9 dec=-12510.8 require min dec=0.303635
+-----try step length 0.00211625 get obj=31138.7 dec=-9393.51 require min dec=0.242908
+-----try step length 0.001693 get obj=28694.7 dec=-6949.54 require min dec=0.194327
+-----try step length 0.0013544 get obj=26798.3 dec=-5053.15 require min dec=0.155461
+-----try step length 0.00108352 get obj=25346.1 dec=-3600.97 require min dec=0.124369
+-----try step length 0.000866816 get obj=24252.3 dec=-2507.1 require min dec=0.0994952
+-----try step length 0.000693453 get obj=23444.4 dec=-1699.25 require min dec=0.0795962
+-----try step length 0.000554762 get obj=22861.2 dec=-1116.03 require min dec=0.063677
+-----try step length 0.00044381 get obj=22450.6 dec=-705.43 require min dec=0.0509416
+-----try step length 0.000355048 get obj=22169.3 dec=-424.146 require min dec=0.0407533
+-----try step length 0.000284038 get obj=21982.3 dec=-237.105 require min dec=0.0326026
+-----try step length 0.000227231 get obj=21862 dec=-116.827 require min dec=0.0260821
+-----try step length 0.000181785 get obj=21787.7 dec=-42.5225 require min dec=0.0208657
+##success linear search, get alpha=0.000145428 obj=21744.1 dec=1.02354 required min dec=0.0166925
+#iteration 28 #obj_value 21744.1 #ave_obj 0.00860337 #evaluate_cnt 306
+time:Sun Mar  2 11:02:38 2014
+
+-----try step length 0.00262001 get obj=741591 dec=-719847 require min dec=0.304957
+-----try step length 0.00209601 get obj=374035 dec=-352290 require min dec=0.243966
+-----try step length 0.00167681 get obj=171494 dec=-149750 require min dec=0.195172
+-----try step length 0.00134145 get obj=82287.4 dec=-60543.3 require min dec=0.156138
+-----try step length 0.00107316 get obj=47201.7 dec=-25457.6 require min dec=0.12491
+-----try step length 0.000858525 get obj=33207 dec=-11462.9 require min dec=0.0999283
+-----try step length 0.00068682 get obj=27218 dec=-5473.86 require min dec=0.0799426
+-----try step length 0.000549456 get obj=24456.3 dec=-2712.14 require min dec=0.0639541
+-----try step length 0.000439565 get obj=23104.5 dec=-1360.37 require min dec=0.0511633
+-----try step length 0.000351652 get obj=22415.1 dec=-671.014 require min dec=0.0409306
+-----try step length 0.000281321 get obj=22055.4 dec=-311.272 require min dec=0.0327445
+-----try step length 0.000225057 get obj=21866.7 dec=-122.559 require min dec=0.0261956
+-----try step length 0.000180046 get obj=21769.2 dec=-25.0961 require min dec=0.0209565
+##success linear search, get alpha=0.000144037 obj=21721.2 dec=22.9476 required min dec=0.0167652
+#iteration 29 #obj_value 21721.2 #ave_obj 0.00859429 #evaluate_cnt 320
+time:Sun Mar  2 11:03:05 2014
+
+-----try step length 0.00332345 get obj=38325.8 dec=-16604.6 require min dec=0.379348
+-----try step length 0.00265876 get obj=34350.7 dec=-12629.6 require min dec=0.303479
+-----try step length 0.00212701 get obj=31208.7 dec=-9487.56 require min dec=0.242783
+-----try step length 0.0017016 get obj=28744.4 dec=-7023.26 require min dec=0.194226
+-----try step length 0.00136128 get obj=26831.4 dec=-5110.22 require min dec=0.155381
+-----try step length 0.00108903 get obj=25365.7 dec=-3644.51 require min dec=0.124305
+-----try step length 0.000871221 get obj=24261 dec=-2539.8 require min dec=0.0994439
+-----try step length 0.000696977 get obj=23444.6 dec=-1723.4 require min dec=0.0795551
+-----try step length 0.000557582 get obj=22854.7 dec=-1133.56 require min dec=0.0636441
+-----try step length 0.000446065 get obj=22439.1 dec=-717.95 require min dec=0.0509153
+-----try step length 0.000356852 get obj=22154.1 dec=-432.952 require min dec=0.0407322
+-----try step length 0.000285482 get obj=21964.4 dec=-243.213 require min dec=0.0325858
+-----try step length 0.000228385 get obj=21842.2 dec=-121.015 require min dec=0.0260686
+-----try step length 0.000182708 get obj=21766.5 dec=-45.3646 require min dec=0.0208549
+-----try step length 0.000146167 get obj=21722.1 dec=-0.890144 require min dec=0.0166839
+##success linear search, get alpha=0.000116933 obj=21697.9 dec=23.3197 required min dec=0.0133471
+#iteration 30 #obj_value 21697.9 #ave_obj 0.00858506 #evaluate_cnt 336
+time:Sun Mar  2 11:03:36 2014
+
+-----try step length 0.00359544 get obj=621380 dec=-599682 require min dec=0.203592
+-----try step length 0.00287635 get obj=306898 dec=-285200 require min dec=0.162874
+-----try step length 0.00230108 get obj=141798 dec=-120101 require min dec=0.130299
+-----try step length 0.00184086 get obj=71197.7 dec=-49499.8 require min dec=0.104239
+-----try step length 0.00147269 get obj=43202.1 dec=-21504.2 require min dec=0.0833914
+-----try step length 0.00117815 get obj=31720.3 dec=-10022.4 require min dec=0.0667131
+-----try step length 0.000942523 get obj=26650.6 dec=-4952.73 require min dec=0.0533705
+-----try step length 0.000754018 get obj=24243.9 dec=-2546.06 require min dec=0.0426964
+-----try step length 0.000603214 get obj=23033.8 dec=-1335.97 require min dec=0.0341571
+-----try step length 0.000482572 get obj=22399.9 dec=-702.039 require min dec=0.0273257
+-----try step length 0.000386057 get obj=22059 dec=-361.167 require min dec=0.0218606
+-----try step length 0.000308846 get obj=21873.4 dec=-175.564 require min dec=0.0174885
+-----try step length 0.000247077 get obj=21772.5 dec=-74.6182 require min dec=0.0139908
+-----try step length 0.000197661 get obj=21718.5 dec=-20.6704 require min dec=0.0111926
+##success linear search, get alpha=0.000158129 obj=21690.9 dec=6.97132 required min dec=0.00895409
+#iteration 31 #obj_value 21690.9 #ave_obj 0.0085823 #evaluate_cnt 351
+time:Sun Mar  2 11:04:05 2014
+
+-----try step length 0.00396145 get obj=38304.6 dec=-16613.7 require min dec=0.328233
+-----try step length 0.00316916 get obj=34345.5 dec=-12654.6 require min dec=0.262587
+-----try step length 0.00253533 get obj=31216.5 dec=-9525.58 require min dec=0.210069
+-----try step length 0.00202826 get obj=28762.1 dec=-7071.21 require min dec=0.168055
+-----try step length 0.00162261 get obj=26855.7 dec=-5164.81 require min dec=0.134444
+-----try step length 0.00129809 get obj=25393.2 dec=-3702.35 require min dec=0.107556
+-----try step length 0.00103847 get obj=24288.6 dec=-2597.76 require min dec=0.0860444
+-----try step length 0.000830777 get obj=23469.8 dec=-1778.89 require min dec=0.0688355
+-----try step length 0.000664621 get obj=22875.6 dec=-1184.75 require min dec=0.0550684
+-----try step length 0.000531697 get obj=22454.6 dec=-763.758 require min dec=0.0440547
+-----try step length 0.000425358 get obj=22163.9 dec=-472.964 require min dec=0.0352438
+-----try step length 0.000340286 get obj=21968.4 dec=-277.496 require min dec=0.028195
+-----try step length 0.000272229 get obj=21840.8 dec=-149.946 require min dec=0.022556
+-----try step length 0.000217783 get obj=21760.4 dec=-69.4939 require min dec=0.0180448
+-----try step length 0.000174227 get obj=21711.7 dec=-20.8305 require min dec=0.0144359
+##success linear search, get alpha=0.000139381 obj=21683.9 dec=6.95792 required min dec=0.0115487
+#iteration 32 #obj_value 21683.9 #ave_obj 0.00857955 #evaluate_cnt 367
+time:Sun Mar  2 11:04:36 2014
+
+-----try step length 0.00318051 get obj=688025 dec=-666341 require min dec=0.239176
+-----try step length 0.0025444 get obj=344944 dec=-323260 require min dec=0.19134
+-----try step length 0.00203552 get obj=158948 dec=-137264 require min dec=0.153072
+-----try step length 0.00162842 get obj=77803.4 dec=-56119.4 require min dec=0.122458
+-----try step length 0.00130274 get obj=45690.9 dec=-24006.9 require min dec=0.0979663
+-----try step length 0.00104219 get obj=32696.6 dec=-11012.7 require min dec=0.078373
+-----try step length 0.00083375 get obj=27047.6 dec=-5363.62 require min dec=0.0626984
+-----try step length 0.000667 get obj=24403.2 dec=-2719.28 require min dec=0.0501587
+-----try step length 0.0005336 get obj=23089.7 dec=-1405.75 require min dec=0.040127
+-----try step length 0.00042688 get obj=22409.1 dec=-725.166 require min dec=0.0321016
+-----try step length 0.000341504 get obj=22047.1 dec=-363.173 require min dec=0.0256813
+-----try step length 0.000273203 get obj=21852.4 dec=-168.437 require min dec=0.020545
+-----try step length 0.000218563 get obj=21748 dec=-64.1114 require min dec=0.016436
+-----try step length 0.00017485 get obj=21693.5 dec=-9.53848 require min dec=0.0131488
+##success linear search, get alpha=0.00013988 obj=21666.5 dec=17.4623 required min dec=0.0105191
+#iteration 33 #obj_value 21666.5 #ave_obj 0.00857264 #evaluate_cnt 382
+time:Sun Mar  2 11:05:05 2014
+
+-----try step length 0.0043256 get obj=37941 dec=-16274.5 require min dec=0.290515
+-----try step length 0.00346048 get obj=34057.5 dec=-12391 require min dec=0.232412
+-----try step length 0.00276838 get obj=30988.9 dec=-9322.43 require min dec=0.185929
+-----try step length 0.00221471 get obj=28582.9 dec=-6916.41 require min dec=0.148744
+-----try step length 0.00177177 get obj=26715.4 dec=-5048.92 require min dec=0.118995
+-----try step length 0.00141741 get obj=25284.4 dec=-3617.93 require min dec=0.0951959
+-----try step length 0.00113393 get obj=24205.2 dec=-2538.71 require min dec=0.0761567
+-----try step length 0.000907144 get obj=23406.5 dec=-1740 require min dec=0.0609254
+-----try step length 0.000725715 get obj=22827.9 dec=-1161.4 require min dec=0.0487403
+-----try step length 0.000580572 get obj=22418.4 dec=-751.921 require min dec=0.0389922
+-----try step length 0.000464458 get obj=22135.7 dec=-469.2 require min dec=0.0311938
+-----try step length 0.000371566 get obj=21945.5 dec=-279.026 require min dec=0.024955
+-----try step length 0.000297253 get obj=21821.1 dec=-154.643 require min dec=0.019964
+-----try step length 0.000237802 get obj=21742.3 dec=-75.8195 require min dec=0.0159712
+-----try step length 0.000190242 get obj=21694.2 dec=-27.7378 require min dec=0.012777
+##success linear search, get alpha=0.000152193 obj=21666.3 dec=0.133515 required min dec=0.0102216
+#iteration 34 #obj_value 21666.3 #ave_obj 0.00857259 #evaluate_cnt 398
+time:Sun Mar  2 11:05:36 2014
+
