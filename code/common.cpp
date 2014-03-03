@@ -30,7 +30,7 @@ lbfgsfloatval_t func_evaluate(const lbfgsfloatval_t *w,lbfgsfloatval_t *g,const 
 		int j=0;
 		while(-1!=instance[j].index){
 			t+=w[instance[j].index-1]*instance[j].value;
-			if(i<2 && j<4) cout<<"index="<<instance[j].index<<" w[index]="<<w[instance[j].index-1]<<" ";
+			//if(i<2 && j<4) cout<<"index="<<instance[j].index<<" w[index]="<<w[instance[j].index-1]<<" ";
 			++j;
 		}
 		lbfgsfloatval_t ui=sigmod(t);
@@ -39,7 +39,7 @@ lbfgsfloatval_t func_evaluate(const lbfgsfloatval_t *w,lbfgsfloatval_t *g,const 
 			g[instance[j].index-1]+=(ui-yi)*instance[j].value; // gradient, X'*(U-Y)
 			++j;
 		}
-		if(i<2)	cout<<"************\nui="<<ui<<" t="<<t<<endl;
+		//if(i<2)	cout<<"************\nui="<<ui<<" t="<<t<<endl;
 		if(yi)	NLL-=log(ui);
 		else	NLL-=log(1-ui);
 		//NLL+=-(yi*log(ui)+(1-yi)*log(1-ui));

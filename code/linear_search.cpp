@@ -14,25 +14,28 @@ double backtracking_linear_search(
 	double *fx, // current function value at x
 	double c, // sufficient decrease condition threshold
 	double init_step, // initial step length
-	double r // scale factor in backtracking
+	double r, // scale factor in backtracking
+	int *evaluateCnt // counter
 ){
 	double dec;
 	vec_dot(&dec,g,p,n);
 	if(dec<0){ // non suitable step,p is not a descent search direction
 		return -1;
 	}
-	cout<<"unit decrease of g'p="<<dec<<endl;
-	for(int i=0;i<5;i++){
-		cout<<"x["<<i<<"]="<<x[i]<<" p["<<i<<"]="<<p[i]<<endl;
-	}
+//	cout<<"unit decrease of g'p="<<dec<<endl;
+//	for(int i=0;i<5;i++) 		cout<<"x["<<i<<"]="<<x[i]<<" p["<<i<<"]="<<p[i]<<endl; 
 	double alpha=init_step;
-	vec_add(xp,x,p,n,1,-alpha);
+	vec_add(xp,x,p,n,1,-alpha);  // p is the negative of search of direction
 	double old_fx=*fx;
-	cout<<"-----init step length="<<init_step<<endl;
-	while( (*fx=proc_evaluate(instance,xp,g,n)) > old_fx+alpha*c*dec ){
+	*fx=proc_evaluate(instance,xp,g,n);
+	++(*evaluateCnt);
+	while( *fx > old_fx-alpha*c*dec ){
 		cout<<"-----try step length "<<alpha<<" get obj="<<*fx<<" dec="<<old_fx-*fx<<" require min dec="<<alpha*c*dec<<endl;
 		alpha*=r;
 		vec_add(xp,x,p,n,1,-alpha);
+		*fx=proc_evaluate(instance,xp,g,n);
+		++(*evaluateCnt);
 	}
+	cout<<"##success linear search, get alpha="<<alpha<<" obj="<<*fx<<" dec="<<old_fx-*fx<<" required min dec="<<alpha*c*dec<<endl;
 	return alpha;
 }

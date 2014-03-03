@@ -25,6 +25,7 @@ double backtracking_linear_search(
 	double *fx, // current function value at x
 	double c, // sufficient decrease condition threshold
 	double init_step, // initial step length
-	double r // scale factor in backtracking
+	double r, // scale factor in backtracking
+	int *evaluateCnt  // the counter of call obj-function evaluater
 );
 #endif
