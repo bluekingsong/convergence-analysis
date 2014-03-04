@@ -17,8 +17,7 @@ double backtracking_linear_search(
 	double r, // scale factor in backtracking
 	int *evaluateCnt // counter
 ){
-	double dec;
-	vec_dot(&dec,g,p,n);
+	double dec=vec_dot(g,p,n);
 	if(dec<0){ // non suitable step,p is not a descent search direction
 		return -1;
 	}
@@ -38,4 +37,12 @@ double backtracking_linear_search(
 	}
 	cout<<"##success linear search, get alpha="<<alpha<<" obj="<<*fx<<" dec="<<old_fx-*fx<<" required min dec="<<alpha*c*dec<<endl;
 	return alpha;
+}
+
+double guess_init_step(const double *g,const int n,int iter){
+	double result=abs(g[0]);
+	for(int i=1;i<n;++i){
+		result=max(result,abs(g[i]));
+	}
+	return 1.0/result*pow(0.9,iter-1);
 }

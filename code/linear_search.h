@@ -28,4 +28,9 @@ double backtracking_linear_search(
 	double r, // scale factor in backtracking
 	int *evaluateCnt  // the counter of call obj-function evaluater
 );
+// guess a inital step when use linear search
+// @g, gradient
+// @n, number of variables
+// @iter, optional, current iteration
+double guess_init_step(const double *g,const int n,int iter);
 #endif

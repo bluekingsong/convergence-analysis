@@ -4,14 +4,6 @@
 #include "vec_op.h"
 using namespace std;
 
-double calc_init_step(const double *g,const int n,int iter){
-	double result=abs(g[0]);
-	for(int i=1;i<n;++i){
-		result=max(result,abs(g[i]));
-	}
-	return 1.0/result*pow(0.9,iter-1);
-}
-
 void steep_gradient_descent(const char* filename,int maxIter,double objDelta){
 	time_t t=time(0);
 	cout<<"begin read probelm:"<<asctime(localtime(&t))<<endl;
@@ -32,7 +24,7 @@ void steep_gradient_descent(const char* filename,int maxIter,double objDelta){
 		++iter;
 		double last=fx;
 		vec_cpy(p,g,prob.n);
-		double init_step=calc_init_step(g,prob.n,iter);
+		double init_step=guess_init_step(g,prob.n,iter);
 		double alpha=backtracking_linear_search(&prob,evaluator_interface,x,xp,g,p,prob.n,&fx,c1,init_step,0.8,&evaluateCnt);
 		if(alpha<0){
 			cout<<"stop, cannot find suitable step length."<<endl;
