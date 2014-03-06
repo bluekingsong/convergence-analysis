@@ -9,6 +9,13 @@ using namespace std;
 typedef double lbfgsfloatval_t;
 // function implemented to evaluate the opt-fun value and gradients at parameter w by using step length @step in linear search
 lbfgsfloatval_t func_evaluate(const lbfgsfloatval_t *w,lbfgsfloatval_t *g,const Problem &data){
+/*	for test, the function is f(x)=10*(x2-x1^2)^2+(1-x1)^2;
+	double x1=w[0],x2=w[1];
+	g[0]=-40*(x2-x1*x1)*x1+2*x1-2;
+	g[1]=20*(x2-x1*x1);
+	double t=(x2-x1*x1);
+	return 10*t*t+(1-x1)*(1-x1);
+*/
 	if(0==g){
 		cerr<<"error:null pointer of gradients g,exit."<<endl;
 		return 0;

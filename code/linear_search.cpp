@@ -18,10 +18,10 @@ double backtracking_linear_search(
 	int *evaluateCnt // counter
 ){
 	double dec=vec_dot(g,p,n);
+	cout<<"unit decrease of g'p="<<dec<<endl;
 	if(dec<0){ // non suitable step,p is not a descent search direction
 		return -1;
 	}
-//	cout<<"unit decrease of g'p="<<dec<<endl;
 //	for(int i=0;i<5;i++) 		cout<<"x["<<i<<"]="<<x[i]<<" p["<<i<<"]="<<p[i]<<endl; 
 	double alpha=init_step;
 	vec_add(xp,x,p,n,1,-alpha);  // p is the negative of search of direction
