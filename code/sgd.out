@@ -1,0 +1,25 @@
+begin read probelm:Thu Mar  6 12:19:07 2014
+
+number of instances=2527397
+number of features=33256
+end of read:Thu Mar  6 12:19:22 2014
+
+init obj value=1.75186e+06
+#iteration 1 #obj_value 25651.5 #ave_obj 0.0101494
+time:Thu Mar  6 12:34:24 2014
+
+#iteration 2 #obj_value 22791.7 #ave_obj 0.00901786
+time:Thu Mar  6 12:49:24 2014
+
+#iteration 3 #obj_value 22049.2 #ave_obj 0.00872407
+time:Thu Mar  6 13:04:24 2014
+
+#iteration 4 #obj_value 21760.6 #ave_obj 0.0086099
+time:Thu Mar  6 13:19:24 2014
+
+#iteration 5 #obj_value 21603.6 #ave_obj 0.00854776
+time:Thu Mar  6 13:34:24 2014
+
+#iteration 6 #obj_value 21498.4 #ave_obj 0.00850614
+time:Thu Mar  6 13:49:24 2014
+
