@@ -46,10 +46,11 @@ void sgd(const char* filename,int iteration,double learningRate){
 		for(int i=0;i<prob.l;++i){
 			evaluate_gradient(w,(prob.x)[i],(prob.y)[i],xg,n,indies);
 			vec_add(w,w,xg,n,1.0,-learningRate);
-			if(i%50000==0){
+/*			if(i%500000==0){
 				t=time(0);
 				cout<<"progress:"<<i<<" time:"<<asctime(localtime(&t))<<endl;
 			}
+		*/
 		}
 		fx=func_evaluate(w,g,prob);
 		double decrease=last-fx;
